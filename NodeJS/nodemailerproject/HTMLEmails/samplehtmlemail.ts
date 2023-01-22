@@ -24,8 +24,8 @@ async function sendEmail()
         port: 465,
         secure:true,
         auth: {
-          user: 'sai.sumanth.reddy.talamanchi@oracle.com',
-          pass: "Tssr.1993"
+          user: 'email.gmail.com',
+          pass: "passwrd"
         },
         tls:{
             rejectUnauthorized:false
@@ -43,8 +43,8 @@ async function sendEmail()
       
       console.log(html.htmlstring);
       var mailOptions = {
-        from: 'sai.sumanth.reddy.talamanchi@oracle.com',
-        to: 'sai.sumanth.reddy.talamanchi@oracle.com',
+        from: 'email.gmail.com',
+        to: 'email.gmail.com',
         subject: 'Testing Node Mailer Configuration',
         text: "test",
         html: html.htmlstring
