@@ -19,8 +19,8 @@ var readHTMLFile = async function(path:any, callback:any) {
 async function sendEmail()
 {
      var transporter = nodemailer.createTransport(smtpTransport({
-        service:"oracle",
-        host: 'stbeehive.oracle.com',
+        service:"test",
+        host: 'test',
         port: 465,
         secure:true,
         auth: {
