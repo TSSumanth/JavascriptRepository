@@ -10,7 +10,7 @@
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^11.11.6",
-    "handlebars": "^4.1.1",
+    "handlebars": "^4.7.7",
     "nodemailer": "^6.0.0",
     "nodemailer-smtp-transport": "^2.7.4",
     "ts-node": "^8.0.3",
