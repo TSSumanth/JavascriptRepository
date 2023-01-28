@@ -1,7 +1,7 @@
 var nodemailer = require('nodemailer');
 let fs = require('fs');
 
-async function sendEmail()
+async function sendEmail2()
 {
      var transporter = nodemailer.createTransport({
         service:"servicename",
@@ -41,4 +41,4 @@ async function sendEmail()
       });
 }
 
-sendEmail();
+sendEmail2();
